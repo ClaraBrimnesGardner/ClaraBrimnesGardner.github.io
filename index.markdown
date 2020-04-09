@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "Mon Chouette"
+title: "New York Car Crashes"
 ---
-Experiment. Hvorfor virker det ikke
+New York Car Crashes.
