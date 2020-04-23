@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "New York Car Crashes"
+title: "Car Crashes in New York School Districts"
 ---
 New York Car Crashes.
-{% include image.html url="/images/my-cat.jpg" description="My cat, Robert Downey Jr." %}
+
+{% include "CloroplethIncident.html" %}
