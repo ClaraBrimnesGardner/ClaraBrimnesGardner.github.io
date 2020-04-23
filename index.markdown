@@ -6,3 +6,4 @@ layout: home
 title: "New York Car Crashes"
 ---
 New York Car Crashes.
+{% include image.html url="/images/my-cat.jpg" description="My cat, Robert Downey Jr." %}
