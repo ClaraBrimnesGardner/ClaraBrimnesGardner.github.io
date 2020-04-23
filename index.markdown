@@ -6,5 +6,3 @@ layout: home
 title: "Car Crashes in New York School Districts"
 ---
 Crashes divided into each school district
-
-{% include "CloroplethIncident.html" %}
