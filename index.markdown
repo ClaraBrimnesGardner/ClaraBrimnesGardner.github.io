@@ -13,9 +13,10 @@ Most accidents happens in Manhattan and East Brooklyn, and the further away from
 
 Below a new map of New York City is shown. Here the school districts are colored according to the injury rate and the fatality rate - that is the number of injuries (fatalities) divided by the number of accidents.
 {% include CloroplethRates.html %}
-The map indeed shows that the injury rates are lowest in Manhattan, and are higher in the less urban school zones. 
+The map indeed shows that the injury rates are lowest in Manhattan, and are higher in the less urban school zones.
 
 
 Below the temporal patterns are investigated. The plot below shows the distribution of the accidents across the 24 hours of the day. The legend allows you to add the distribution for one or more district to the plot. Notice that all the distributions have been normalized, such that the total height of the bars is 1.
 {% include DistrictbarsTabs.html %}
 The distribution of the accidents is very similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour.
+{% include ClickMap.html %}
