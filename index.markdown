@@ -5,7 +5,8 @@
 layout: home
 title: "Car Crashes in New York School Districts"
 ---
-In 2019 227 people were killed in traffic accidents in New York City, and more than 50.000 people were injured. On this webpage we will visualize the geographical patterns of accidents in New York City. More specifically we will investigate which school districts, that are the moth dangerous. We will point out dangerous intersections, such that parents no which roads to avoid when bringing their children to school.
+In 2019 227 people were killed in traffic accidents in New York City, and more than 50.000 people were injured. On this webpage we will visualize the geographical patterns of accidents in New York City. More specifically we will investigate which school districts, that are the most dangerous.
 
-The figure below shows a map of New York City, where each school district has been colored according to the number of traffic accidents. The different tabs allow you to base the coloring on 
+The figure below shows a map of New York City, where each school district has been colored according to the number of traffic accidents. The different tabs allow you to base the coloring on incidents, injuries, fatalities and the injury rate (injuries divided by incidents).
 {% include CloroplethIncidentTabs.html %}
+Both in terms of incidents, injuries and fatalities, school district 2 is by far the most dangerous district. The safest districts are located in the west of Brooklyn (district 16 and 32). When switching to injury percentage the pciture changes a lot. School district 2 is now the safest district, while districts in West Brooklyn and Queens are more dangerous. The most dangerous district in terms of injury rate is district 18 in Brooklyn, where 40 % of crashes results in an injury.
