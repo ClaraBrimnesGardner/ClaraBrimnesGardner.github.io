@@ -11,5 +11,5 @@ The figure below shows a map of New York City, where each school district has be
 {% include CloroplethIncidentTabs.html %}
 Both in terms of incidents, injuries and fatalities, school district 2 is by far the most dangerous district. The safest districts are located in the west of Brooklyn (district 16 and 32). When switching to injury percentage the pciture changes a lot. School district 2 is now the safest district, while districts in West Brooklyn and Queens are more dangerous. The most dangerous district in terms of injury rate is district 18 in Brooklyn, where 40 % of crashes results in an injury.
 
-Below the temporal patterns are investigated
+Below the temporal patterns are investigated. The plot below shows the distribution of the accidents across the 24 hours of the day. The legend allows you to add one or more districts
 {% include DistrictBars.html %}
