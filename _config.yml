@@ -20,7 +20,8 @@
 
 title: Visualizing Traffic Accidents in New York
 description: >- # this means to ignore newlines until "baseurl:"
-  This site was created as part of the...
+  This site was created as part of the course 02806 Social Data Analysis and Visualization
+  by Clara Brimnes Gardner, Sara Nielsen and Jon Roslyng Larsen
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
