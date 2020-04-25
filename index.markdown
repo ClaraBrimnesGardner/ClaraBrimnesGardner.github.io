@@ -20,3 +20,5 @@ Below the temporal patterns are investigated. The plot below shows the distribut
 {% include DistrictbarsTabs.html %}
 The distribution of the accidents is very similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour.
 {% include ClickMap.html %}
+
+{% include ClickTabMap.html %}
