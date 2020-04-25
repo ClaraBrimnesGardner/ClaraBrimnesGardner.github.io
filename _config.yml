@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Visualization
+title: Visualizing Traffic Accidents in New York
 description: >- # this means to ignore newlines until "baseurl:"
   This site was created as part of the...
 #baseurl: "" # the subpath of your site, e.g. /blog
