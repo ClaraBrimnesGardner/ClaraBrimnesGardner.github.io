@@ -17,11 +17,11 @@ Below a new map of New York City is shown. Here the school districts are colored
 {% include CloroplethRates.html %}
 The map indeed shows that the injury rates are lowest in Manhattan, and are higher in the less urban school zones.
 
+## Exploring the temporal patterns of the districts
+Below the temporal patterns are investigated. For each district the distribution of the accidents across time is displayed (the figure allows you to toggle between an _hourly_, _weekly_, _monthly_ and _yearly_ timeframe).
+By clicking on a district the accident distribution for that district will be added to the plot. This allows for comparison with the overall distribution, making exploration of how each district behaves easy.
+Notice that all the distributions have been normalized, such that the total height of the bars is 1.
 
-Below the temporal patterns are investigated. The plot below shows the distribution of the accidents across the 24 hours of the day. The legend allows you to add the distribution for one or more district to the plot. Notice that all the distributions have been normalized, such that the total height of the bars is 1.
-{% include DistrictbarsTabs.html %}
-
-The distribution of the accidents is very similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour.
-
-## Explore the temporal patterns of the districts
 {% include ClickTabMap.html %}
+
+The distribution of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. The yearly trend is seen to increase for districts and decrease for others.
