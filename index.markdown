@@ -7,7 +7,7 @@ title:
  _and Jon Roslyng Larsen (s154358)_
 
 
-In 2019 233 people were killed in traffic accidents in New York City, and more than 56,424 people were injured. On this webpage we will visualize the geographical patterns of accidents in New York City. More specifically we will investigate which school districts, that are the most dangerous. The data used for the visualizations on this page, can be found [here](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
+In 2019 233 people were killed in traffic accidents in New York City, and 56,469 people were injured. On this webpage we will visualize the geographical patterns of accidents in New York City. More specifically we will investigate which school districts, that are the most dangerous. The data used for the visualizations on this page, can be found [here](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
 
 The figure below shows a map of New York City, where each school district has been colored according to the number of traffic accidents. The different tabs allow you to base the coloring on incidents, injuries and fatalities per square kilometer. The plot includes accidents from January 2012 to March 2020.
 {% include CloroplethIncidents.html %}
