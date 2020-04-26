@@ -3,8 +3,8 @@ layout: home
 title:  
 ---
 <h1> Car Crashes in New York School Districts </h1>
- _Created by Clara Brimnes Gardner (s15...), Sara Nielsen (s15...)_\
-_and Jon Roslyng Larsen (s154358)_
+ _Created by Clara Brimnes Gardner (s15...), Sara Nielsen (s15...)_  
+ _and Jon Roslyng Larsen (s154358)_
 
 
 In 2019 227 people were killed in traffic accidents in New York City, and more than 50.000 people were injured. On this webpage we will visualize the geographical patterns of accidents in New York City. More specifically we will investigate which school districts, that are the most dangerous. The data used for the visualizations on this page, can be found [here](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
