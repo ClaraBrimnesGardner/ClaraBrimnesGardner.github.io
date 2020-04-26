@@ -3,7 +3,7 @@ layout: home
 title:  
 ---
 <h1> Car Crashes in New York School Districts </h1>
- _Created by Clara Brimnes Gardner (s15...), Sara Nielsen (s15...)_  
+ _Created by Clara Brimnes Gardner (s153542), Sara Nielsen (s153173)_  
  _and Jon Roslyng Larsen (s154358)_
 
 
