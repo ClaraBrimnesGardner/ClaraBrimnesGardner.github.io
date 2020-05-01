@@ -28,7 +28,7 @@ Notice that all the distributions have been normalized, such that the total heig
 
 {% include ClickTabMap.html %}
 
-The dayly distributions of the accidents are quite similar for the different districts. The distribution of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. Some districts
+The daily distributions of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. In district 2 in Manhattan the daily pattern deviates from
 
  The yearly trend is seen to increase for districts and decrease for others.
 
