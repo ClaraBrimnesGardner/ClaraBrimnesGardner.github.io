@@ -17,7 +17,7 @@ Injuries also occurs most frequently in Manhattan, but there is a larger area wi
 
 {% include CloroplethRates.html %}
 
-There are some districts in Brooklyn and the Bronx with a high number of injuries compared too the number of accidents. Especially district 18 in Brooklyn is worth noticing. Here we find both the highest injury and fatality rate among the districts. By further inspection, the plot seems to indicate that the seriousness of accidents increases the further from Manhattan we go. This trend most likely stems from the speed of which the cars moving; in Manhattan the density of traffic will not as frequently allow for unsafe speeds.
+There are some districts in Brooklyn and the Bronx with a high number of injuries compared too the number of accidents. Especially district 18 in Brooklyn is worth noticing. Here we find both the highest injury and fatality rate among the districts. By frther inspection, the plot seems to indicate that the seriousness of accidents increases the further from Manhattan we go. This trend most likely stems from the speed of which the cars moving; in Manhattan the density of traffic will not as frequently allow for unsafe speeds.
 The map indeed shows that the injury rates are lowest in Manhattan, and are higher in the less urban school zones.
 
 
@@ -28,9 +28,10 @@ Notice that all the distributions have been normalized, such that the total heig
 
 {% include ClickTabMap.html %}
 
-The daily distributions of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. In district 2 in Manhattan the daily pattern deviates from
+The daily distributions of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. Some districts deviate a little. For instance district 2 in Manhattan has more accidents at night time than expected - probably because it is one of the most urban areas. In district a lot accidents happen at 8 AM. The weekly patterns, shows that the week-day in general does not influent the number of accidents. When considering all districts a few more accidents happens on Fridays, but otherwise it is evenly distributed. Again District 2 in Manhattan deviates from the overall distribution, as many accidents happen on Sunday and Saturday - perhaps due to non-residents visiting in the weekends. In district 20 on the other hand, the number of accidents on Saturdays is much lower than the overall distribution.
 
- The yearly trend is seen to increase for districts and decrease for others.
+The yearly trend is seen to increase for districts and decrease for others.
 
- ## Exploring the schools
- {% include Dist18.html %}
+## Exploring the Schools
+One thing is how many accidents that happens in a school district, another thing is where they happen. In the following we will investigate which schools in each district that are the most dangerous. Below a map of selected school districts are shown. The black dots shows the locations of the schools, and the opague circles are colored according to the number of accidents happening within a 100 meter radius of the school. 
+{% include Dist18.html %}
