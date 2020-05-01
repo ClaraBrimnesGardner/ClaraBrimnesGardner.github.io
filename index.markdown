@@ -12,10 +12,8 @@ In 2019 233 people were killed in traffic accidents in New York City, and 56,469
 The figure below shows a map of New York City, where each school district has been colored according to the number of traffic accidents. The different tabs allow you to base the coloring on incidents, injuries and fatalities divided by area. The plot includes accidents from January 2012 to March 2020.
 {% include CloroplethIncidents.html %}
 
-Most accidents occur in Manhattan and East Brooklyn and the further away from Manhattan the fewer accidents. The same pattern is seen when considering only accidents where someone was injured (Injuries tab) or died (Fatalities tab).
-
-
-Below a new map of New York City is shown. Here the school districts are colored according to the injury rate and the fatality rate - that is the number of injuries and fatalities divided by the number of accidents.
+Most accidents occur in Manhattan and West Brooklyn and the further away from Manhattan the fewer accidents.
+Injuries also occurs most frequently in Manhattan, but there is a larger area with many occurrences - the rate is for instance high in most of Brooklyn. The fatalities follows a pattern similar to the injuries. Comparing the accidents with the injuries and fatalities suggest that the accidents happening outside Manhattan is more serious. This is investigated below, where a new map of New York City is shown. Here the school districts are colored according to the injury rate and the fatality rate - that is the number of injuries and fatalities divided by the number of accidents.
 
 {% include CloroplethRates.html %}
 
@@ -30,4 +28,9 @@ Notice that all the distributions have been normalized, such that the total heig
 
 {% include ClickTabMap.html %}
 
-The distribution of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. The yearly trend is seen to increase for districts and decrease for others.
+The dayly distributions of the accidents are quite similar for the different districts. The distribution of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. Some districts
+
+ The yearly trend is seen to increase for districts and decrease for others.
+
+ ## Exploring the schools
+ {% include Dist18.html %}
