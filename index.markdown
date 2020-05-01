@@ -30,6 +30,8 @@ Notice that all the distributions have been normalized, such that the total heig
 
 The daily distributions of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. Some districts deviate a little. For instance district 2 in Manhattan has more accidents at night time than expected - probably because it is one of the most urban areas. In district a lot accidents happen at 8 AM. The weekly patterns, shows that the week-day in general does not influent the number of accidents. When considering all districts a few more accidents happens on Fridays, but otherwise it is evenly distributed. Again District 2 in Manhattan deviates from the overall distribution, as many accidents happen on Sunday and Saturday - perhaps due to non-residents visiting in the weekends. In district 20 on the other hand, the number of accidents on Saturdays is much lower than the overall distribution.
 
+April is the month with fewest accidents. 
+
 ## Exploring the Schools
 One thing is how many accidents that happens in a school district, another thing is where they happen. In the following we will investigate which schools in each district that are the most dangerous. Below a map of selected school districts are shown. The black dots shows the locations of the schools, and the opaque circles are colored according to the number of accidents happening within a 100 meter radius of the school.
 {% include Dist18.html %}
