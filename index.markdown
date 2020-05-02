@@ -22,6 +22,9 @@ The map indeed shows that the injury rates are lowest in Manhattan, and are high
 
 
 ## Exploring the temporal patterns of the districts
+
+{% include TimeSeries.html %}
+
 Below the temporal patterns are investigated. For each district the distribution of the accidents across time is displayed (the figure allows you to toggle between an _hourly_, _weekly_, _monthly_ and _yearly_ timeframe).
 By clicking on a district the accident distribution for that district will be added to the plot. This allows for comparison with the overall distribution, making exploration of how each district behaves easy.
 Notice that all the distributions have been normalized, such that the total height of the bars is 1.
