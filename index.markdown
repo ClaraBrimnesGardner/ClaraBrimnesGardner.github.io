@@ -38,4 +38,4 @@ April is the month with fewest accidents. Especially April 2016 seems to be an a
 
 ## Exploring the Schools
 One thing is how many accidents that happens in a school district, another thing is where they happen. In the following we will investigate which schools in each district that are the most dangerous. Below a map of selected school districts are shown. The black dots shows the locations of the schools, and the opaque circles are colored according to the number of accidents happening within a 100 meter radius of the school.
-{% include Dist18.html %}
+{% include DistTabsSample.html %}
