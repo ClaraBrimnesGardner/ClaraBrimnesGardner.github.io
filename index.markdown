@@ -17,15 +17,16 @@ Injuries also occurs most frequently in Manhattan, but there is a larger area wi
 
 {% include CloroplethRates.html %}
 
-There are some districts in Brooklyn and the Bronx with a high number of injuries compared too the number of accidents. Especially district 18 in Brooklyn is worth noticing. Here we find both the highest injury and fatality rate among the districts. By frther inspection, the plot seems to indicate that the seriousness of accidents increases the further from Manhattan we go. This trend most likely stems from the speed of which the cars moving; in Manhattan the density of traffic will not as frequently allow for unsafe speeds.
+There are some districts in Brooklyn and the Bronx with a high number of injuries compared too the number of accidents. Especially district 18 in Brooklyn is worth noticing. Here we find both the highest injury and fatality rate among the districts. By further inspection, the plot seems to indicate that the seriousness of accidents increases the further from Manhattan we go. This trend most likely stems from the speed of which the cars moving; in Manhattan the density of traffic will not as frequently allow for unsafe speeds.
 The map indeed shows that the injury rates are lowest in Manhattan, and are higher in the less urban school zones.
 
 
 ## Exploring the temporal patterns of the districts
-
+It is of interest to explore the temporal patterns of traffic accidents in New York in order to identify any trends, both in a broad timeframe and regarding time of day etc.
+Firstly the entire dataset is considered, for all districts and all times. In the graph below, the number of accidents is plotted against time. The data is furthermore smoothed with a rolling mean in order to give an indication of the overall trend of the data.
 {% include TimeSeries.html %}
 
-Below the temporal patterns are investigated. For each district the distribution of the accidents across time is displayed (the figure allows you to toggle between an _hourly_, _weekly_, _monthly_ and _yearly_ timeframe).
+We now zoom in on the different districts and the temporal patterns they exhibit and how they deviate from the overall distribution. For each district the distribution of the accidents across time is displayed (the figure allows you to toggle between an _hourly_, _weekly_, _monthly_ and _yearly_ timeframe).
 By clicking on a district the accident distribution for that district will be added to the plot. This allows for comparison with the overall distribution, making exploration of how each district behaves easy.
 Notice that all the distributions have been normalized, such that the total height of the bars is 1.
 
