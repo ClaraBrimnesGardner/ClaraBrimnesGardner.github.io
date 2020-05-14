@@ -68,7 +68,7 @@ The predictions are based on a generalized linear model with the Poisson-distrib
 The output is the probability that one or more accidents happens in a given day between 8-19 AM or between 2-4 PM within the 250 m radius of each school. You can see that the probability of an accident is at most 0.02 which corresponds to 2%. The probabilities are highest in district 1 and 5. If you compare the different districts, it is interesting to notice the influence of rain. In the most urban districts (1 and 5) the probability of accidents doesn't depend on the weather, while many schools in district 18 have a higher accident probability when it is raining.
 
 
-### Explainer Notebook and Data Sets
-[Explainer notebook](https://nbviewer.jupyter.org/github/JonRoslyng/02806-Explainer-Notebook/blob/master/02806_Explainer_Notebook.ipynb)
+## Explainer Notebook and Data Sets
+The code and reasoning behind this website can be found in this [explainer notebook](https://nbviewer.jupyter.org/github/JonRoslyng/02806-Explainer-Notebook/blob/master/02806_Explainer_Notebook.ipynb).
 
-The explainer notebook contains the links to the data sets in the fist cell
+The explainer notebook above contains links to the data sets that have been used for this project.
