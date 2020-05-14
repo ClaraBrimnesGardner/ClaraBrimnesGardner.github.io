@@ -36,9 +36,10 @@ Notice that all the distributions have been normalized, such that the total heig
 The _daily_ distributions of the accidents are quite similar for the different districts. There are most accidents at day-time with peaks at 8-9 o'clock and 16-17 o'clock - typical rush hour. Some districts deviate a little. In the districts in Manhattan there are more accidents at night time than expected (especially in the small district 2). This is probably due to the urbanity of the area. Also in Staten Island there are more accidents at night, than expected. There are not obvious deviations from the total pattern in the other districts. Moving to the _weekly_ patterns, fewest accidents are happening in the weekend, and most are happening on Fridays. The distribution over the the rest of the week-days is almost even, with a slight dive on Mondays. Again the small district in Manhattan (district 2) deviates from the general pattern, as much more accidents happen in the weekend. This is probably due to people from the outer districts going into the city. Most of the other districts follows the general pattern. In district 14 and 15 in Brooklyn (just across from district 2), fewer accidents are happening in the weekend, but the deviation is not as big as for district 2. The _monthly_ pattern shows that few accidents are happening in April. A possible explanation for this can be the Spring Break, which takes place in April. Surprisingly it does not seem like more accidents are happening in the winter - something one could have expected due to bad weather conditions. At last the _yearly_ distribution shows that there in general was a slight rise in the accidents from 2013 to 2018. In 2019 the number of accidents dropped. Notice that 2020 has been left out of this plot. Some districts shows very different patterns. In district 1 and 2 in Manhattan the number of accidents was highest in 2013 and has decreased since. On the other hand Staten Island (district 31) saw no decrease in 2019. Many of the districts in the Bronx (e.g 7, 8, 9, 11) have more accidents in 2017-2019 than the general pattern.
 
 
-## Exploring Focus Districts
+## Exploring Schools in Focus Districts
 One thing is how many accidents that happens in a school district, another thing is where they happen. In the following we will investigate which schools in each district that are the most dangerous. We have selected 5 focus districts with different characteristica - namely district 1, 5, 18, 21 and 26. The figure below highlights the locations.
 
+{%include FocusDistricts.html %}
 
 Below individual maps of the five focus-districts are shown. The black dots shows the locations of the schools, and the opaque circles are colored according to the number of accidents happening within a 250 meter radius of the school. Notice that only accidents happening in the same school district as the schools has been counted. 5000 accidents have been randomly sampled from each district. The red dots shows these.
 {% include DistTabsSample.html %}
@@ -54,5 +55,8 @@ At last district 26 is found in East Queens. The school district is large an fai
 
 Comparing the locations of the district and the distributions it seems like the most dangerous parts of all districts, are the one faced towards the city, while closer to the water is more safe. This is especially seen in district 1, 18 and 21.
 
-## Predicting the Danger
+## Predicting the Probability of Accidents
 At last we seek to predict the number of accidents happening close to schools. We restrict ourselves to the between 8-10 AM and between 2-4 PM, which are classical drop-off and pick-up times. Furthermore we base our predictions on the weather, as we investigate the probability of an accident happening with and without rain.
+
+
+The predictions are based on a generalized linear model with the Poisson-distribution as probabilistic model.
