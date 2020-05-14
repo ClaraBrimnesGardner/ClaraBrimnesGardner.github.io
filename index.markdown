@@ -63,6 +63,6 @@ Comparing the locations of the district and the distributions it seems like the 
 ## Predicting the Probability of Accidents
 At last we seek to predict the number of accidents happening close to schools. We restrict ourselves to the between 8-10 AM and between 2-4 PM, which are classical drop-off and pick-up times. Furthermore we base our predictions on the weather, as we investigate the probability of an accident happening with and without rain.
 
-
+{% include predictions.html %}
 The predictions are based on a generalized linear model with the Poisson-distribution as probabilistic model.
 The output is the probability that one or more accidents happens in a given day between 8-19 AM or between 2-4 PM within the 250 m radius of each school.
