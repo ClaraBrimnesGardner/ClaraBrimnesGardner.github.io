@@ -21,7 +21,7 @@ There are some districts in Brooklyn and the Bronx with a high number of injurie
 The map indeed shows that the injury rates are lowest in Manhattan, and are higher in the less urban school zones.
 
 
-## Exploring the temporal patterns of the districts
+## Exploring the Temporal Patterns of the Districts
 It is of interest to explore the temporal patterns of traffic accidents in New York in order to identify any trends, both in a broad timeframe and regarding time of day etc. Firstly the entire dataset is considered, for all districts and all times. In the graph below, the number of accidents is plotted against time. The data is furthermore smoothed with a rolling mean in order to give an indication of the overall trend of the data. The purple box below the plot allows you to choose a specific time interval to zoom in on.
 {% include TimeSeries.html %}
 The number of accidents seems to be fairly stable with around 500 accidents each day. Some days have an exceptionally high number of accidents. For instance there was 1512 accidents of the 5'th of March in 2015 and 1687 accidents of the 3'rd of February in 2014. Considering only longer lasting trends, there is a dive in accidents in April 2016 and in March 2020. The dive in March 2020 can probably be explained by less traffic due to covid-19, but there is no obvious explanation for the pattern in April 2016.
