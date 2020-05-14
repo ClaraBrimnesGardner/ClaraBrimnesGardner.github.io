@@ -65,4 +65,4 @@ At last we seek to predict the number of accidents happening close to schools. W
 
 {% include predictions.html %}
 The predictions are based on a generalized linear model with the Poisson-distribution as probabilistic model.
-The output is the probability that one or more accidents happens in a given day between 8-19 AM or between 2-4 PM within the 250 m radius of each school.
+The output is the probability that one or more accidents happens in a given day between 8-19 AM or between 2-4 PM within the 250 m radius of each school. You can see that the probability of an accident is at most 0.02 which corresponds to 2%. The probabilities are highest in district 1 and 5. If you compare the different districts, it is interesting to notice the influence of rain. In the most urban districts (1 and 5) the probability of an accidents is highest when it is not raining, whilst there are many schools in the other three districts, where the probability of an accident increases when it rains.
