@@ -37,6 +37,16 @@ The _daily_ distributions of the accidents are quite similar for the different d
 
 
 ## Exploring the Schools
-One thing is how many accidents that happens in a school district, another thing is where they happen. In the following we will investigate which schools in each district that are the most dangerous. Below a map of selected school districts are shown. The black dots shows the locations of the schools, and the opaque circles are colored according to the number of accidents happening within a 250 meter radius of the school. Notice that only accidents happening in the same school district as the schools has been counted. 5000 accidents have been randomly sampled from each district. The red dots shows these. 
+One thing is how many accidents that happens in a school district, another thing is where they happen. In the following we will investigate which schools in each district that are the most dangerous. Below a map of selected school districts are shown. We have tried to select districts with different characteristica. The black dots shows the locations of the schools, and the opaque circles are colored according to the number of accidents happening within a 250 meter radius of the school. Notice that only accidents happening in the same school district as the schools has been counted. 5000 accidents have been randomly sampled from each district. The red dots shows these.
 {% include DistTabsSample.html %}
-In district 1 it is seen that
+District 1 is a small school district located in Manhattan. The schools are close to each other, and in general many accidents happen close to the schools. There is a tendency that the westernmost schools have most accidents nearby.
+
+District 5 is located in the north of Manhattan. Here it seems that the westernmost schools are the safest, while the schools in the south east of the district have many accidents nearby. The number of accidents close to the schools are again high - the safest school have more than 1500 accidents within the radius of 250 meters.
+
+District 18 is the district with highest injury-rate. It is located in the south west of Brooklyn. The district is larger than district 1 and 5, and therefore the circles appear smaller. The most dangerous schools are found in the north-east of the district. It is worth noting the difference between the two northernmost schools, PS 219 Kennedy King and PS 268 Emma Lazarus. PS 219 Kennedy King have a much higher number of accidents that PS 268 Emma even though they are located very close to each other. This is maybe due to a dangerous road near PS 219 Kennedy - looking at the plot there seems to be a street with many accidents south east of PS 219 Kennedy.
+
+District 21 is located in the south of Brooklyn. Looking at the scale on the color-bar it is seen that in general fewer accidents happens nearby the schools in this district. The most accidents happens in the east of the district, while the safest schools are found in the south west.
+
+At last district 26 is found in East Queens. The school district is large an fairly few accidents happen close to the schools. The most dangerous schools are found in the middle of the district. Looking at the plot is seems like there are some dangerous, vertical roads.
+
+Comparing the locations of the district and the distributions it seems like the most dangerous parts of all districts, are the one faced towards the city, while closer to the water is more safe. This is especially seen in district 1, 18 and 21. 
