@@ -71,4 +71,17 @@ The output is the probability that one or more accidents happens in a given day 
 ## Explainer Notebook and Data Sets
 The code and reasoning behind this website can be found in this [explainer notebook](https://nbviewer.jupyter.org/github/JonRoslyng/02806-Explainer-Notebook/blob/master/02806_Explainer_Notebook.ipynb).
 
-The explainer notebook above contains links to the data sets that have been used for this project.
+Below is links to all the data used in the visualizations
+Original data set: https://drive.google.com/open?id=1Maga8JVHM6q7B0u-CDeo448rlloi5LRj
+
+Data set merged with weather and district numbers: https://drive.google.com/open?id=1yYXSerXNenOewXALccdTHESWc8nA-S-r
+
+Augmented data set divided into districts and distance to schools: https://drive.google.com/open?id=1oCtOSql-88A2IZE-qsgC1h8msEJ_-0zs
+
+School districts and their coordinates: https://drive.google.com/open?id=1Cd4gwp1wNm6iEJ7tiuMwTTKMJcvKNzp9
+
+School districts with computed number of accidents etc (geojson file): https://drive.google.com/open?id=1gI2QKYbotX1VZPQx19D48fp0d4HMYEh6
+
+Elementary school locations: https://drive.google.com/open?id=1GWKU6XtUGh6qGoPSO2I5qYQOmAfGFzxN
+
+Weather data: https://drive.google.com/open?id=1nVOTK0xs4ut0zqjAEz3b1MvGKFCSWf2T
