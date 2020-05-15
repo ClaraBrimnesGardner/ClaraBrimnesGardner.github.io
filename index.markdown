@@ -71,17 +71,18 @@ The output is the probability that one or more accidents happens in a given day 
 ## Explainer Notebook and Data Sets
 The code and reasoning behind this website can be found in this [explainer notebook](https://nbviewer.jupyter.org/github/JonRoslyng/02806-Explainer-Notebook/blob/master/02806_Explainer_Notebook.ipynb).
 
-Below is links to all the data used in the visualizations
-Original data set: [here](https://drive.google.com/open?id=1Maga8JVHM6q7B0u-CDeo448rlloi5LRj)
+Below are links to all the data sets used in the making of this website
 
-Data set merged with weather and district numbers: [here](https://drive.google.com/open?id=1yYXSerXNenOewXALccdTHESWc8nA-S-r)
+[Original data set](https://drive.google.com/open?id=1Maga8JVHM6q7B0u-CDeo448rlloi5LRj)
 
-Augmented data set divided into districts and distance to schools: [here](https://drive.google.com/open?id=1oCtOSql-88A2IZE-qsgC1h8msEJ_-0zs)
+[Data set merged with weather and district numbers](https://drive.google.com/open?id=1yYXSerXNenOewXALccdTHESWc8nA-S-r)
 
-School districts and their coordinates: [here](https://drive.google.com/open?id=1Cd4gwp1wNm6iEJ7tiuMwTTKMJcvKNzp9)
+[Augmented data set divided into districts and distance to schools](https://drive.google.com/open?id=1oCtOSql-88A2IZE-qsgC1h8msEJ_-0zs)
 
-School districts with computed number of accidents etc (geojson file): [here](https://drive.google.com/open?id=1gI2QKYbotX1VZPQx19D48fp0d4HMYEh6)
+[School districts and their coordinates](https://drive.google.com/open?id=1Cd4gwp1wNm6iEJ7tiuMwTTKMJcvKNzp9)
 
-Elementary school locations: [here](https://drive.google.com/open?id=1GWKU6XtUGh6qGoPSO2I5qYQOmAfGFzxN)
+[School districts with computed number of accidents etc (geojson file)](https://drive.google.com/open?id=1gI2QKYbotX1VZPQx19D48fp0d4HMYEh6)
 
-Weather data: [here](https://drive.google.com/open?id=1nVOTK0xs4ut0zqjAEz3b1MvGKFCSWf2T)
+[Elementary school locations](https://drive.google.com/open?id=1GWKU6XtUGh6qGoPSO2I5qYQOmAfGFzxN)
+
+[Weather data](https://drive.google.com/open?id=1nVOTK0xs4ut0zqjAEz3b1MvGKFCSWf2T)
