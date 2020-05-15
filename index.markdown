@@ -69,7 +69,7 @@ The output is the probability that one or more accidents happens in a given day 
 
 
 ## Explainer Notebook and Data Sets
-The code and reasoning behind this website can be found in this [explainer notebook](https://nbviewer.jupyter.org/github/JonRoslyng/02806-Explainer-Notebook/blob/master/02806_Explainer_Notebook.ipynb).
+The code and reasoning behind this website can be found in this [explainer notebook](https://nbviewer.jupyter.org/github/ClaraBrimnesGardner/ExplainerNotebook/blob/master/02806_ExplainingNotebook.ipynb).
 
 Below are links to all the data sets used in the making of this website
 
